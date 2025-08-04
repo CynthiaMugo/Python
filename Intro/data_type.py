@@ -17,7 +17,12 @@ my_obj = {"key":"value", "age":23} #Dictionary key -> value
 
 ## Print All Value
 print(x)
+print(type(x))
 print(pi)
 print(myName)
 print(is_happy)
 print(no_value)
+print(my_array)
+print(my_set) #prints only the unique values
+print(my_tuple[0])
+print(my_obj["age"])
