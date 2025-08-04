@@ -8,6 +8,7 @@ else:
 
 # 0 and 12
 # && - and || - or
+# else if ---> elif
 if age < 12:
     print("You are a baby")
 elif age >= 12 and age < 18:
