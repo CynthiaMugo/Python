@@ -32,3 +32,18 @@ def do_drink(**kwargs):
 ##ARGS AND KWARGS --> DECORATORS
 do_drink(drink=["Glenfidish","KingFisher"],
          prices=[120,100,40])
+
+def mixed(*args,**kwargs):
+    print("Kwargs",kwargs)
+    print("Args",args)
+
+mixed("cool","drinks",name="John",age=20,)
+
+def square_all(*args):
+    ans=[]
+    for n in args:
+        ans.append(n*n)
+    print(ans)
+    return ans
+
+square_all(2,4,6,1)
