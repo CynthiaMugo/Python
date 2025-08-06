@@ -1,0 +1,16 @@
+Awesome word 
+Awesome word 
+Awesome word 
+Hello, Cynthia 
+Hello, Cynthia 
+function:sum time taken 4.363059997558594e-05 
+function:sum time taken 6.4373016357421875e-06 
+Hello, Cynthia 
+function:sum time taken 9.012222290039062e-05 seconds 
+function:sum time taken 1.239776611328125e-05 seconds 
+Hello, Cynthia 
+function:counter time taken 62.4528329372406 seconds 
+function:sum time taken 0.00010657310485839844 seconds 
+function:sum time taken 1.5735626220703125e-05 seconds 
+Hello, Cynthia 
+function:sum time taken 6.604194641113281e-05 seconds 
