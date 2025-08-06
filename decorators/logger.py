@@ -1,4 +1,6 @@
 import time
+import platform
+import os
 
 def logger(func):
     def wrapper(*args, **kwargs):
@@ -15,7 +17,7 @@ def write_file(f_name, txt):
     with open(f_name, "a") as file:
         file.write(f"{txt} \n")
 
-write_file(f_name="logger.txt", txt="Hello, Cynthia")
+# write_file(f_name="logger.txt", txt="Hello, Cynthia")
 
 @logger
 def counter():
@@ -34,4 +36,14 @@ def sum(*args):
     print("Ans is ",ans)
     return ans
 
-sum(100,2004,500,345,6767,457546)
+# sum(100,2004,500,345,6767,457546)
+
+# os information
+print(f"Os is: {platform.system()} {platform.system()}")
+print(f"Machine {platform.machine()}")
+
+print(platform.freedesktop_os_release())
+
+# os
+print(os.getlogin())
+print(os.cpu_count())
