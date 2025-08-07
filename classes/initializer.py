@@ -33,7 +33,7 @@ print("name", adam.name)
 print("gender", adam.gender)
 print("ribs", adam.ribs)
 print("curse", adam.curse)
-print("")
+print("--------------------")
 
 eve = Human(name="Eve", gender="female")
 print("name", eve.name)
