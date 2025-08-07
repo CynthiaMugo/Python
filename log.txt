@@ -1,0 +1,14 @@
+Tried to get name 
+At 2025-08-07 15:44:28.536684 got name from adam 
+At 2025-08-07 15:45:00.484547 got name from adam 
+At 2025-08-07 15:54:09.793033 got name from adam 
+At 2025-08-07 15:59:21.327830 got name from adam 
+At 2025-08-07 16:00:07.455446 got name from adam 
+At 2025-08-07 16:08:13.916125 got name from adam 
+At 2025-08-07 16:10:56.503598 got name from adam 
+At 2025-08-07 16:17:11.438878 got name from adam 
+At 2025-08-07 16:17:11.439600 Name changed from new name to Joseph 
+At 2025-08-07 16:17:11.439888 Name changed from Joseph to Adam 
+At 2025-08-07 16:17:11.440103 Name changed from Adam to Samson 
+At 2025-08-07 16:26:29.337486 got name from adam 
+At 2025-08-07 16:27:14.123250 got name from adam 

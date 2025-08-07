@@ -21,22 +21,24 @@ class Human():
             self.ribs = 23
             self.curse = "Pain"
 
-    def another_one(self, gender, name):
-        print("This is another method")
+    def print_self(self):
+        print("------------------------")
+        print("name", self.name)
+        print("gender", self.gender)
+        print("ribs", self.ribs)
+        print("curse", self.curse)
+        print("--------------------")
+
 
 # __init__ is called automatically but any other methods inside the class you have to call them yourself
 adam = Human(name="Adam", gender="Male") # object from a class
-# adam.__init__()
-# adam.__init__()
-# adam.another_one()
-print("name", adam.name)
-print("gender", adam.gender)
-print("ribs", adam.ribs)
-print("curse", adam.curse)
-print("--------------------")
+adam.print_self()
 
-eve = Human(name="Eve", gender="female")
-print("name", eve.name)
-print("gender", eve.gender)
-print("ribs", eve.ribs)
-print("curse", eve.curse)
+eve=Human(name="eve",gender="Female")
+eve.print_self()
+
+# eve = Human(name="Eve", gender="female")
+# print("name", eve.name)
+# print("gender", eve.gender)
+# print("ribs", eve.ribs)
+# print("curse", eve.curse)
