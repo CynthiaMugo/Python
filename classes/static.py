@@ -64,10 +64,11 @@ class Human():
 
 
 # adam=Human(name="adam",gender="Male") #object from a class
-# adam = Human(name="adam", gender="Male")
-# eve = Human(name="eve", gender="Female")
-# cain = Human(name="cain", gender="Male")
+adam = Human(name="adam", gender="Male")
+eve = Human(name="eve", gender="Female")
+cain = Human(name="cain", gender="Male")
 
+cain.print_self()
 # cain.print_self()                                                                                   
 # print("adam species", adam.species)
 # print("eve species", eve.species)
