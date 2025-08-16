@@ -1,0 +1,3 @@
+-- constrain your data
+-- to ensure the data is okay maybe make emails are valid/unique
+-- ensures data integrity
