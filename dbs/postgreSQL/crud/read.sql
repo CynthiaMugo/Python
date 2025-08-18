@@ -17,9 +17,13 @@
 -- OR
 -- email = 'violet@gmail.com'
 
+-- SELECT * FROM student
+-- WHERE pocket_money >= 500
+-- AND
+-- pocket_money <= 1700
+-- ORDER BY pocket_money DESC
+-- LIMIT 2
+
 SELECT * FROM student
-WHERE pocket_money >= 500
-AND
-pocket_money <= 1700
-ORDER BY pocket_money DESC
-LIMIT 2
+ORDER BY name ASC
+LIMIT 3;
