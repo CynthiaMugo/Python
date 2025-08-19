@@ -44,3 +44,8 @@ CREATE TABLE IF NOT EXISTS student_subjects(
     subject_id BIGSERIAL NOT NULL REFERENCES subjects(id),
     UNIQUE(student_id, subject_id)
 );
+
+-- practise on 
+-- ON DELETE CASCADE - this will delete all records in the junction table if the student or subject is deleted
+-- ON DELETE SET NULL - this will set the student_id or subject_id to NULL in the junction table if the student or subject is deleted
+-- ON DELETE RESTRICT - this will prevent deletion of the student or subject if there are records in the junction table
