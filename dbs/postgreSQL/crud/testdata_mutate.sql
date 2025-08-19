@@ -14,7 +14,11 @@
 -- pocket_money = 2000
 -- WHERE marks >= 95;
 
-SELECT name, marks, pocket_money FROM student
-WHERE marks < 50
-ORDER BY pocket_money DESC
-LIMIT 15;
+-- SELECT name, marks, pocket_money FROM student
+-- WHERE marks < 50
+-- ORDER BY pocket_money DESC
+-- LIMIT 15;
+
+UPDATE student
+SET marks = '79.5'
+WHERE marks = '39.5'
