@@ -1,3 +1,6 @@
 dbs/password.txt
 .vscode/
 orm/db.py
+sql_alchemy/engine.py
+alembic/app/db.py
+alembic/alembic.ini

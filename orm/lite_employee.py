@@ -24,6 +24,16 @@ class Employee():
 
         lite.lite_query(query=query,params=(name,email))
 
+    def delete(self,name,email):
+        lite=LITE()
+        query="""
+          INSERT INTO employee
+          (name,email)
+          VALUES  (?,?)
+        """
+
+        lite.lite_query(query=query,params=(name,email))
+
     def all(self):
         lite=LITE()
         query="""

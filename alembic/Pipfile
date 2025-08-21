@@ -4,6 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+sqlalchemy = "*"
+alembic = "*"
+psycopg = {extras = ["pool", "binary"], version = "*"}
 
 [dev-packages]
 
